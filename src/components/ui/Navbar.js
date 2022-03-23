@@ -1,10 +1,11 @@
-import { Link, NavLink } from 'react-router-dom'
+import React from 'react';
+import { Link, NavLink, useNavigate} from 'react-router-dom'
 
 export const Navbar = () => {
 
+    const navigate = useNavigate();
+
     const handleLogout = () => {
-        //TODO: Por hacer
-        console.log('logout')
     }
 
     return (
